@@ -1,0 +1,210 @@
+harshank@client-10-228-197-149 src % ./ttt
+
+
+Hello World!
+Hi, I am Alexe. I am powered by AI and I want to play Tic-Tac-Toe : 
+
+Pruning Default Off
+
+Please choose the following options:
+* TTT or ttt - To start a game
+* pruning or P or PRUNING - To turn on/off pruning
+* move [X] [A] [0] - To move X into A 0 location
+* choose [X] - Let Algorithm pick the X
+* q or quit - To exit the program
+
+ ->  P  
+
+
+Pruning IS ON
+To Turn it off, please type "pruning"
+
+Please choose the following options:
+* TTT or ttt - To start a game
+* pruning or P or PRUNING - To turn on/off pruning
+* move [X] [A] [0] - To move X into A 0 location
+* choose [X] - Let Algorithm pick the X
+* q or quit - To exit the program
+
+ ->  ttt
+
+Starting New Game
+
+
+_|_|_
+_|_|_
+_|_|_
+
+
+
+Pruning IS ON
+To Turn it off, please type "pruning"
+
+Please choose the following options:
+* TTT or ttt - To start a game
+* pruning or P or PRUNING - To turn on/off pruning
+* move [X] [A] [0] - To move X into A 0 location
+* choose [X] - Let Algorithm pick the X
+* q or quit - To exit the program
+
+ ->  choose X
+
+X|_|_
+_|_|_
+_|_|_
+
+Total Iterations : 6347
+
+
+Pruning IS ON
+To Turn it off, please type "pruning"
+
+Please choose the following options:
+* TTT or ttt - To start a game
+* pruning or P or PRUNING - To turn on/off pruning
+* move [X] [A] [0] - To move X into A 0 location
+* choose [X] - Let Algorithm pick the X
+* q or quit - To exit the program
+
+ ->  choose O
+
+X|O|_
+_|_|_
+_|_|_
+
+Total Iterations : 1688
+
+
+Pruning IS ON
+To Turn it off, please type "pruning"
+
+Please choose the following options:
+* TTT or ttt - To start a game
+* pruning or P or PRUNING - To turn on/off pruning
+* move [X] [A] [0] - To move X into A 0 location
+* choose [X] - Let Algorithm pick the X
+* q or quit - To exit the program
+
+ ->  coose X
+
+X|O|X
+_|_|_
+_|_|_
+
+Total Iterations : 665
+
+
+Pruning IS ON
+To Turn it off, please type "pruning"
+
+Please choose the following options:
+* TTT or ttt - To start a game
+* pruning or P or PRUNING - To turn on/off pruning
+* move [X] [A] [0] - To move X into A 0 location
+* choose [X] - Let Algorithm pick the X
+* q or quit - To exit the program
+
+ ->  choose O
+
+X|O|X
+O|_|_
+_|_|_
+
+Total Iterations : 228
+
+
+Pruning IS ON
+To Turn it off, please type "pruning"
+
+Please choose the following options:
+* TTT or ttt - To start a game
+* pruning or P or PRUNING - To turn on/off pruning
+* move [X] [A] [0] - To move X into A 0 location
+* choose [X] - Let Algorithm pick the X
+* q or quit - To exit the program
+
+ ->  choose X
+
+X|O|X
+O|X|_
+_|_|_
+
+Total Iterations : 69
+
+
+Pruning IS ON
+To Turn it off, please type "pruning"
+
+Please choose the following options:
+* TTT or ttt - To start a game
+* pruning or P or PRUNING - To turn on/off pruning
+* move [X] [A] [0] - To move X into A 0 location
+* choose [X] - Let Algorithm pick the X
+* q or quit - To exit the program
+
+ ->  choose O
+
+X|O|X
+O|X|O
+_|_|_
+
+Total Iterations : 26
+
+
+Pruning IS ON
+To Turn it off, please type "pruning"
+
+Please choose the following options:
+* TTT or ttt - To start a game
+* pruning or P or PRUNING - To turn on/off pruning
+* move [X] [A] [0] - To move X into A 0 location
+* choose [X] - Let Algorithm pick the X
+* q or quit - To exit the program
+
+ ->  choose X
+
+X|O|X
+O|X|O
+_|X|_
+
+Total Iterations : 7
+
+
+Pruning IS ON
+To Turn it off, please type "pruning"
+
+Please choose the following options:
+* TTT or ttt - To start a game
+* pruning or P or PRUNING - To turn on/off pruning
+* move [X] [A] [0] - To move X into A 0 location
+* choose [X] - Let Algorithm pick the X
+* q or quit - To exit the program
+
+ ->  choose O
+
+X|O|X
+O|X|O
+O|X|_
+
+Total Iterations : 4
+
+
+Pruning IS ON
+To Turn it off, please type "pruning"
+
+Please choose the following options:
+* TTT or ttt - To start a game
+* pruning or P or PRUNING - To turn on/off pruning
+* move [X] [A] [0] - To move X into A 0 location
+* choose [X] - Let Algorithm pick the X
+* q or quit - To exit the program
+
+ ->  choose X
+
+X|O|X
+O|X|O
+O|X|X
+
+Total Iterations : 1
+X wins!
+

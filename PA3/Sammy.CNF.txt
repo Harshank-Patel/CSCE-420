@@ -1,0 +1,94 @@
+a. Every box contains one (and only) of the 3 colors
+
+a) 1st KB
+C1Y -> ~C2Y and ~C3Y          Initial
+~C1Y or (~C2Y and ~C3Y)       By Implication Elimination (IE) on 1st KB
+1a. ~C1Y or ~C2Y              By And Elimination (AE) on 1st KB
+1b. ~C1Y or ~C3Y              By And Elimination (AE) on 1st KB
+
+a) 2nd KB
+C1W -> ~C2W and ~C3W          Initial
+~C1W or (~C2W and ~C3W)       By Implication Elimination (IE) on 2nd KB
+2a. ~C1W or ~C2W              By And Elimination (AE) on 2nd KB
+2b. ~C1W or ~C3W              By And Elimination (AE) on 2nd KB
+
+a) 3rd KB
+C1B -> ~C2B and ~C3B          Initial
+~C1B or (~C2B and ~C3B)       By Implication Elimination (IE)
+3a. ~C1B or ~C2B              By And Elimination (AE) on 3nd KB
+3b. ~C1B or ~C3B              By And Elimination (AE) on 3nd KB
+
+a) 4th KB
+C2Y -> ~C1Y and ~C3Y          Initial
+~C2Y or (~C1Y and ~C3Y)       By Implication Elimination (IE)
+4a. ~C2Y or ~C1Y              By And Elimination (AE) on 4th KB
+4b. ~C2Y or ~C3Y              By And Elimination (AE) on 4th KB
+
+a) 5th KB
+C2W -> ~C1W and ~C3W          Initial
+~C2W or (~C1W and ~C3W)       By Implication Elimination (IE)
+5a. ~C2W or ~C1W              By And Elimination (AE) on 5th KB
+5b. ~C2W or ~C3W              By And Elimination (AE) on 5th KB
+
+a) 6th KB
+C2B -> ~C1B and ~C3B          Initial
+~C2B or (~C1B and ~C3B)       By Implication Elimination (IE)
+6a. ~C2B or ~C1B              By And Elimination (AE) on 6th KB
+6b. ~C2B or ~C3B              By And Elimination (AE) on 6th KB
+
+a) 7th KB
+C3Y -> ~C1Y and ~C2Y          Initial
+~C3Y or (~C1Y and ~C2Y)       By Implication Elimination (IE)
+7a. ~C3Y or ~C1Y              By And Elimination (AE) on 7th KB
+7b. ~C3Y or ~C2Y              By And Elimination (AE) on 7th KB
+
+a) 8th KB
+C3W -> ~C1W and ~C2W          Initial
+~C3W or (~C1W and ~C2W)       By Implication Elimination (IE)
+8a. ~C3W or ~C1W              By And Elimination (AE) on 8th KB
+8b. ~C3W or ~C2W              By And Elimination (AE) on 8th KB
+
+a) 9th KB
+C3B -> ~C1B and ~C2B          Initial
+~C3B or (~C1B and ~C2B)       By Implication Elimination (IE)
+9a. ~C3B or ~C1B              By And Elimination (AE) on 9th KB
+9b. ~C3B or ~C2B              By And Elimination (AE) on 9th KB
+
+
+b. Each box is a different colors
+10. C1Y or C1W or C1B
+11. C2Y or C2W or C2B
+12. C3Y or C3W or C3B
+
+
+c. For each box and each color...if the box is labelled with that color, then it does not actually contain that color.
+13. ~L1W or ~C1W              By Implication Elimination (IE) on 13th KB
+14. ~L1Y or ~C1Y              By Implication Elimination (IE) on 14th KB
+15. ~L1B or ~C1B              By Implication Elimination (IE) on 15th KB
+
+16. ~L2W or ~C2W              By Implication Elimination (IE) on 16th KB
+17. ~L2Y or ~C2Y              By Implication Elimination (IE) on 17th KB
+18. ~L2B or ~C2B              By Implication Elimination (IE) on 18th KB
+
+19. ~L3W or ~C3W              By Implication Elimination (IE) on 19th KB
+20. ~L3Y or ~C3Y              By Implication Elimination (IE) on 20th KB
+21. ~L3B or ~C3B              By Implication Elimination (IE) on 21st KB
+
+d. For each box and each color...if you observe a ball of that color drawn from that box, then it actually contains either that color alone, or both.
+22. ~O1Y or (C1Y or C1B)      By Implication Elimination (IE) on 22nd KB
+23. ~O1W or (C1W or C1B)      By Implication Elimination (IE) on 23rd KB
+
+24. ~O2Y or (C2Y or C2B)      By Implication Elimination (IE) on 24th KB
+25. ~O2W or (C2W or C2B)      By Implication Elimination (IE) on 25th KB
+
+26. ~O3Y or (C3Y or C3B)      By Implication Elimination (IE) on 26th KB
+27. ~O3W or (C3W or C3B)      By Implication Elimination (IE) on 27th KB
+
+
+e. Initial 6 that were given to us
+22. ~O1Y or (C1Y or C1B)
+13. ~L1W or ~C1W        
+25. ~O2W or (C2W or C2B)
+17. ~L2Y or ~C2Y
+26. ~O3Y or (C3Y or C3B)
+21. ~L3B or ~C3B

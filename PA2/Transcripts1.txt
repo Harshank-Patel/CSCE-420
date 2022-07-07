@@ -1,0 +1,77 @@
+Hello World!
+Hi, I am Alexe. I am powered by AI and I want to play Tic-Tac-Toe : 
+
+(choose [_] or move [_] [_] [_] format or ttt)   :  ttt   
+
+Starting New Game
+
+
+_|_|_
+_|_|_
+_|_|_
+
+(choose [_] or move [_] [_] [_] format or ttt)   :  choose O
+
+O|_|_
+_|_|_
+_|_|_
+
+Total Iterations : 551241
+(choose [_] or move [_] [_] [_] format or ttt)   :  choose X
+
+O|_|_
+_|X|_
+_|_|_
+
+Total Iterations : 59704
+(choose [_] or move [_] [_] [_] format or ttt)   :  choose O
+
+O|O|_
+_|X|_
+_|_|_
+
+Total Iterations : 7331
+(choose [_] or move [_] [_] [_] format or ttt)   :  choose X
+
+O|O|X
+_|X|_
+_|_|_
+
+Total Iterations : 934
+(choose [_] or move [_] [_] [_] format or ttt)   :  choose O
+
+O|O|X
+_|X|_
+O|_|_
+
+Total Iterations : 197
+(choose [_] or move [_] [_] [_] format or ttt)   :  choose X
+
+O|O|X
+X|X|_
+O|_|_
+
+Total Iterations : 46
+(choose [_] or move [_] [_] [_] format or ttt)   :  choose O
+
+O|O|X
+X|X|O
+O|_|_
+
+Total Iterations : 13
+(choose [_] or move [_] [_] [_] format or ttt)   :  choose X
+
+O|O|X
+X|X|O
+O|X|_
+
+Total Iterations : 4
+(choose [_] or move [_] [_] [_] format or ttt)   :  choose O
+
+O|O|X
+X|X|O
+O|X|O
+
+Tie *******!
+
+Restart program if you want to play again!

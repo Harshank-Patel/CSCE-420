@@ -1,0 +1,122 @@
+Question-1:
+
+| ?- brother(rod,X).
+X = tod ? ;
+
+| ?- sister(marge,X).
+X = patty ? ;
+X = selma ? ;
+
+| ?- aunt(X,patty).
+X = bart ? ;
+X = lisa ? ;
+X = maggie ? ;
+
+| ?- uncle(bart,X).
+X = herb ? ;
+
+| ?- grandfather(maggie,X).
+X = abraham ? ;
+
+| ?- granddaughter(jackie,lisa).
+yes
+
+| ?- ancestor(bart,X).
+X = homer ? ;
+X = marge ? ;
+X = abraham ? ;
+X = jackie ? ;
+
+| ?- unrelated(tod,bart).
+yes
+
+| ?- unrelated(maggie,smithers).
+yes
+
+| ?- unrelated(maggie,selma).
+no
+
+
+
+
+
+Question-2:
+
+| ?- txsurgeon100k(X).
+X = charlie ? ;
+X = lisa
+
+
+
+Question-3:
+
+| ?- canTeach(X,Y). 
+X = susan
+Y = algebra ? ;
+X = susan
+Y = calculus ? ;
+X = bill
+Y = organic ? ;
+X = bill
+Y = inorganic ? ;
+
+
+
+| ?- canTeach2(X,Y).
+X = susan
+Y = algebra ? ;
+X = susan
+Y = calculus ? ;
+X = chuck
+Y = dynamics ? ;
+X = chuck
+Y = electromagnetism ? ;
+X = chuck
+Y = nuclear ? ;
+X = bill
+Y = organic ? ;
+X = bill
+Y = inorganic ? ;
+
+
+| ?- canTeach3(X,Y).
+X = susan
+Y = algebra ? ;
+X = susan
+Y = calculus ? ;
+
+
+
+Question-4:
+| ?-  countup1(2,8).
+2
+3
+4
+5
+6
+7
+8
+true ? ;
+no
+
+| ?-  countup2(2,8).
+2
+3
+4
+5
+6
+7
+8
+true ? ;
+no
+
+| ?-  countup3(2,8).
+2
+3
+4
+5
+6
+7
+8
+true ? ;
+no

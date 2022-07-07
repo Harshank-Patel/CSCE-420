@@ -1,0 +1,43 @@
+Australia Map Color:
+
+Model 1:
+NSWB : 1
+TB : 1
+QG : 1
+WAG : 1
+VG : 1
+NTB : 1
+SAR : 1
+
+Model 2: (Forced the WESTERN AUSTRALIA TO BE RED)
+NSWB : 1
+TB : 1
+WAR : 1
+NTB : 1
+SAG : 1
+VR : 1
+QR : 1
+
+Runtime for Australia Map Color Problem:
+
+    Model 1 Iterations
+With UCH    : 21
+Without UCH : 430485
+
+
+    Model 2 Iterations
+With UCH    : 21
+Without UCH : 809383
+
+
+4 - Queens Problem:
+With UCH    : 89
+Without UCH : 77620
+
+6 - Queens Problem:
+With UCH    : 177
+Without UCH : N/A (Took too long)
+
+8 - Queens Problem:
+With UCH    : 118
+Without UCH : N/A (Took too long)

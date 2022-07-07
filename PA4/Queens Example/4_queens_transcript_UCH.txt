@@ -1,0 +1,36 @@
+
+
+
+1 = True, 0 = False, -1 = Incomplete
+
+
+
+Size of Clauses I read are : 84
+
+
+Model : 
+Q44 : 0
+Q43 : 1
+Q42 : 0
+Q34 : 0
+Q33 : 0
+Q32 : 0
+Q13 : 0
+Q31 : 1
+Q23 : 0
+Q22 : 0
+Q41 : 0
+Q21 : 0
+Q24 : 1
+Q14 : 0
+Q12 : 1
+Q11 : 0
+
+Iterations taken : 77620
+
+********************
+Above Model is TRUE!
+********************
+
+
+

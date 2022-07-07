@@ -1,0 +1,44 @@
+
+
+
+1 = True, 0 = False, -1 = Incomplete
+
+
+
+Size of Clauses I read are : 51
+
+
+Model : 
+O3W : 0
+O3Y : 1
+O2W : 1
+L2W : 0
+O1Y : 1
+L2B : 0
+L1B : 0
+L3Y : 0
+L1Y : 0
+L3W : 0
+C2B : 0
+C3Y : 1
+O2Y : 0
+C2W : 1
+L1W : 1
+L2Y : 1
+C3B : 0
+L3B : 1
+C1Y : 0
+C2Y : 0
+C3W : 0
+C1B : 1
+C1W : 0
+O1W : 1
+
+Iterations taken : 9793606
+
+********************
+Above Model is TRUE!
+********************
+
+
+

@@ -1,0 +1,55 @@
+Running DEFAULT heuristic which is using the (incorrect blocks in the state) + (sum of distance of each blocks currently from the destination state) + (min_estimated-moves)
+
+
+
+        BFS Results  
+
+     iter : 32,    maxq : 55,    [BC] [DEA] []   
+Depth : 4
+
+[B] [DEAC] []   
+Depth : 3
+
+[] [DEAC] [B]   
+Depth : 2
+
+[] [DEA] [BC]   
+Depth : 1
+
+[A] [DE] [BC]   
+Depth : 0
+
+     planLen for BFS : 4
+
+
+
+         A* Results  
+
+
+
+  Max Queue Size : 16
+  Iterations : 8
+
+
+
+Priniting the planLen elements here : 
+[BC] [DEA] []   
+Distance of Each block from its Destination : 0    Min-Block need to move : 0   Depth : 4    Incorrect-Nodes : 0
+
+[B] [DEAC] []   
+Distance of Each block from its Destination : 2.23607    Min-Block need to move : 4   Depth : 3    Incorrect-Nodes : 1
+
+[] [DEAC] [B]   
+Distance of Each block from its Destination : 4.23607    Min-Block need to move : 6   Depth : 2    Incorrect-Nodes : 2
+
+[] [DEA] [BC]   
+Distance of Each block from its Destination : 4    Min-Block need to move : 3   Depth : 1    Incorrect-Nodes : 2
+
+[A] [DE] [BC]   
+Distance of Each block from its Destination : 6.23607    Min-Block need to move : 7   Depth : 0    Incorrect-Nodes : 3
+
+  planlen for A* : 4
+
+
+
+

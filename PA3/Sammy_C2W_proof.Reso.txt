@@ -1,0 +1,28 @@
+Basically using the ~C2W, prove the C2W and they will be contradiction and will prove it!
+
+
+1.  ~C2W                   To prove
+2.  ~O1Y or (C1Y or C1B)   By Implication Elimination (IE)
+3.  ~L1W or ~C1W           By Implication Elimination (IE)
+4.  ~O2W or (C2W or C2B)   By Implication Elimination (IE)
+5.  ~L2Y or ~C2Y           By Implication Elimination (IE)
+6.  ~O3Y or (C3Y or C3B)   By Implication Elimination (IE)
+7.  ~L3B or ~C3B           By Implication Elimination (IE)
+8.  O1Y                    By Reversing the IE (Initial Symbols)
+9.  L1W                    By Reversing the IE (Initial Symbols)
+10. O2W                    By Reversing the IE (Initial Symbols)
+11. L2Y                    By Reversing the IE (Initial Symbols)
+12. O3Y                    By Reversing the IE (Initial Symbols)
+13. L3B                    By Reversing the IE (Initial Symbols)
+14. C1Y or C1B             By Resolution on 2 and 8
+15. C2W or C2B             By Resolution on 4 and 10
+16. C3Y or C3B             By Resolution on 6 and 12
+17. ~C3B                   By Resolution on 7 and 13
+18. C3B or C3Y             By Commutative on 16
+19. C3Y                    By Resolution on 17 and 18
+20. ~C1Y                   By Resolution on 19 and (~C1B or ~C2B)
+21. C1B                    By Resolution on 14 and 20
+22. ~C2B                   By Resolution on 21 and (~C1B or ~C2B)
+23. C2B or C2W             By Commutative on 16
+24. C2W                    By Resolution on 22 and 23
+25. Ø                      Becayse of 1 and 24

@@ -1,0 +1,167 @@
+Hello World!
+Hi, I am Alexe. I am powered by AI and I want to play Tic-Tac-Toe : 
+
+Pruning Default Off
+
+Please choose the following options:
+* TTT or ttt - To start a game
+* pruning or P or PRUNING - To turn on/off pruning
+* move [X] [A] [0] - To move X into A 0 location
+* choose [X] - Let Algorithm pick the X
+* q or quit - To exit the program
+
+ ->  P      
+
+
+Pruning IS ON
+To Turn it off, please type "pruning"
+
+Please choose the following options:
+* TTT or ttt - To start a game
+* pruning or P or PRUNING - To turn on/off pruning
+* move [X] [A] [0] - To move X into A 0 location
+* choose [X] - Let Algorithm pick the X
+* q or quit - To exit the program
+
+ ->  move X A 0
+
+X|_|_
+_|_|_
+_|_|_
+
+Total Iterations : 0
+
+
+Pruning IS ON
+To Turn it off, please type "pruning"
+
+Please choose the following options:
+* TTT or ttt - To start a game
+* pruning or P or PRUNING - To turn on/off pruning
+* move [X] [A] [0] - To move X into A 0 location
+* choose [X] - Let Algorithm pick the X
+* q or quit - To exit the program
+
+ ->  move O B 0
+
+X|_|_
+O|_|_
+_|_|_
+
+Total Iterations : 0
+
+
+Pruning IS ON
+To Turn it off, please type "pruning"
+
+Please choose the following options:
+* TTT or ttt - To start a game
+* pruning or P or PRUNING - To turn on/off pruning
+* move [X] [A] [0] - To move X into A 0 location
+* choose [X] - Let Algorithm pick the X
+* q or quit - To exit the program
+
+ ->  choose X
+
+X|X|_
+O|_|_
+_|_|_
+
+Total Iterations : 628
+
+
+Pruning IS ON
+To Turn it off, please type "pruning"
+
+Please choose the following options:
+* TTT or ttt - To start a game
+* pruning or P or PRUNING - To turn on/off pruning
+* move [X] [A] [0] - To move X into A 0 location
+* choose [X] - Let Algorithm pick the X
+* q or quit - To exit the program
+
+ ->  choose X
+
+X|X|_
+O|X|_
+_|_|_
+
+Total Iterations : 173
+
+
+Pruning IS ON
+To Turn it off, please type "pruning"
+
+Please choose the following options:
+* TTT or ttt - To start a game
+* pruning or P or PRUNING - To turn on/off pruning
+* move [X] [A] [0] - To move X into A 0 location
+* choose [X] - Let Algorithm pick the X
+* q or quit - To exit the program
+
+ ->  choose X
+
+X|X|_
+O|X|X
+_|_|_
+
+Total Iterations : 39
+
+
+Pruning IS ON
+To Turn it off, please type "pruning"
+
+Please choose the following options:
+* TTT or ttt - To start a game
+* pruning or P or PRUNING - To turn on/off pruning
+* move [X] [A] [0] - To move X into A 0 location
+* choose [X] - Let Algorithm pick the X
+* q or quit - To exit the program
+
+ ->  choose X
+
+X|X|_
+O|X|X
+X|_|_
+
+Total Iterations : 13
+
+
+Pruning IS ON
+To Turn it off, please type "pruning"
+
+Please choose the following options:
+* TTT or ttt - To start a game
+* pruning or P or PRUNING - To turn on/off pruning
+* move [X] [A] [0] - To move X into A 0 location
+* choose [X] - Let Algorithm pick the X
+* q or quit - To exit the program
+
+ ->  choose O
+
+X|X|O
+O|X|X
+X|_|_
+
+Total Iterations : 7
+
+
+Pruning IS ON
+To Turn it off, please type "pruning"
+
+Please choose the following options:
+* TTT or ttt - To start a game
+* pruning or P or PRUNING - To turn on/off pruning
+* move [X] [A] [0] - To move X into A 0 location
+* choose [X] - Let Algorithm pick the X
+* q or quit - To exit the program
+
+ ->  choose X
+
+X|X|O
+O|X|X
+X|X|_
+
+Total Iterations : 2
+X wins!
+

@@ -1,0 +1,27 @@
+Prove C2W by Natural Deduction
+
+Initial:
+{O1Y, L1W, O2W, L2Y, O3Y, L3B}
+
+Natural Deductions:
+
+1. O1Y -> C1Y or C1B
+2. L1W -> ~C1W
+3. O2W -> C2W or C2B
+4. L2Y -> ~C2Y
+5. O3Y -> C3Y or C3B
+6. L3B -> ~C3B
+7.  C1Y or C1B       By Modus Ponens (MP) on 1
+8.  ~C1W             By Modus Ponens (MP) on 2
+9.  C2W or C2B       By Modus Ponens (MP) on 3
+10. ~C2Y             By Modus Ponens (MP) on 4
+11. C3Y or C3B       By Modus Ponens (MP) on 5
+12. ~C3B             By Modus Ponens (MP) on 6
+13. C3B or C3Y       By Commutative on 11
+14. C3B              By Disjunctive Syllogism on 13 and 12
+15. ~C1B and ~C2B    By Modus Ponens (MP) on 14
+16. ~C1B             By And Elimination on 15
+17. ~C2B and ~C1B    By Commutative on 15
+18. ~C2B             By And Elimination on 17
+19. C2B and C2W      By Commutative on 9
+20. C2W              By Disjunctive Syllogism on 18 and 19

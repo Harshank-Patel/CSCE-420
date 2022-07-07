@@ -1,0 +1,9 @@
+Running DEFAULT heuristic which is using the (incorrect blocks in the state) + (sum of distance of each blocks currently from the destination state) + (min_estimated-moves)
+
+
+
+  A* Results  
+
+Crossed Max Iteration, sorry!
+Not Found using A_star Algorithm!
+planlen for A* : 0

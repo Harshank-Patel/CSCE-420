@@ -1,0 +1,94 @@
+Running DEFAULT heuristic which is using the (incorrect blocks in the state) + (sum of distance of each blocks currently from the destination state) + (min_estimated-moves)
+
+
+
+        BFS Results  
+
+     iter : 2135,    maxq : 646,    [ACBE] [D] []   
+Depth : 10
+
+[ACB] [D] [E]   
+Depth : 9
+
+[ACB] [] [ED]   
+Depth : 8
+
+[AC] [] [EDB]   
+Depth : 7
+
+[A] [C] [EDB]   
+Depth : 6
+
+[] [CA] [EDB]   
+Depth : 5
+
+[B] [CA] [ED]   
+Depth : 4
+
+[BD] [CA] [E]   
+Depth : 3
+
+[BDE] [CA] []   
+Depth : 2
+
+[BDE] [C] [A]   
+Depth : 1
+
+[BD] [CE] [A]   
+Depth : 0
+
+     planLen for BFS : 10
+
+
+
+         A* Results  
+
+
+
+  Max Queue Size : 171
+  Iterations : 118
+
+
+
+Priniting the planLen elements here : 
+[ACBE] [D] []   
+Distance of Each block from its Destination : 0    Min-Block need to move : 0   Depth : 11    Incorrect-Nodes : 0
+
+[ACBE] [] [D]   
+Distance of Each block from its Destination : 1    Min-Block need to move : 1   Depth : 10    Incorrect-Nodes : 1
+
+[ACB] [] [DE]   
+Distance of Each block from its Destination : 3.82843    Min-Block need to move : 5   Depth : 9    Incorrect-Nodes : 2
+
+[AC] [] [DEB]   
+Distance of Each block from its Destination : 5.82843    Min-Block need to move : 7   Depth : 8    Incorrect-Nodes : 3
+
+[A] [C] [DEB]   
+Distance of Each block from its Destination : 7.24264    Min-Block need to move : 11   Depth : 7    Incorrect-Nodes : 4
+
+[AB] [C] [DE]   
+Distance of Each block from its Destination : 6.24264    Min-Block need to move : 11   Depth : 6    Incorrect-Nodes : 4
+
+[AB] [CE] [D]   
+Distance of Each block from its Destination : 5.65028    Min-Block need to move : 11   Depth : 5    Incorrect-Nodes : 4
+
+[AB] [CED] []   
+Distance of Each block from its Destination : 6.65028    Min-Block need to move : 12   Depth : 4    Incorrect-Nodes : 4
+
+[A] [CEDB] []   
+Distance of Each block from its Destination : 7.0645    Min-Block need to move : 13   Depth : 3    Incorrect-Nodes : 4
+
+[] [CEDB] [A]   
+Distance of Each block from its Destination : 9.0645    Min-Block need to move : 15   Depth : 2    Incorrect-Nodes : 5
+
+[B] [CED] [A]   
+Distance of Each block from its Destination : 9.65028    Min-Block need to move : 14   Depth : 1    Incorrect-Nodes : 5
+
+[BD] [CE] [A]   
+Distance of Each block from its Destination : 9.0645    Min-Block need to move : 16   Depth : 0    Incorrect-Nodes : 5
+
+  planlen for A* : 11
+
+
+
+

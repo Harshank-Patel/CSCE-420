@@ -1,0 +1,98 @@
+Purning Off:
+
+X|_|_
+_|_|_
+_|_|_
+Total Iterations : 551241
+
+X|_|_
+_|O|_
+_|_|_
+Total Iterations : 59704
+
+X|X|_
+_|O|_
+_|_|_
+Total Iterations : 7331
+
+X|X|O
+_|O|_
+_|_|_
+Total Iterations : 934
+
+X|X|O
+_|O|_
+X|_|_
+Total Iterations : 197
+
+X|X|O
+O|O|_
+X|_|_
+Total Iterations : 46
+
+X|X|O
+O|O|X
+X|_|_
+Total Iterations : 13
+
+X|X|O
+O|O|X
+X|O|_
+Total Iterations : 4
+
+X|X|O
+O|O|X
+X|O|X
+Total Iterations : 1
+Tie *******!
+
+
+
+Pruning On:
+
+X|_|_
+_|_|_
+_|_|_
+Total Iterations : 6347
+
+X|O|_
+_|_|_
+_|_|_
+Total Iterations : 1688
+
+X|O|X
+_|_|_
+_|_|_
+Total Iterations : 665
+
+X|O|X
+O|_|_
+_|_|_
+Total Iterations : 228
+
+X|O|X
+O|X|_
+_|_|_
+Total Iterations : 69
+
+X|O|X
+O|X|O
+_|_|_
+Total Iterations : 26
+
+X|O|X
+O|X|O
+_|X|_
+Total Iterations : 7
+
+X|O|X
+O|X|O
+O|X|_
+Total Iterations : 4
+
+X|O|X
+O|X|O
+O|X|X
+Total Iterations : 1
+
+Tie *******!

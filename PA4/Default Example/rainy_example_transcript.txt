@@ -1,0 +1,25 @@
+
+
+
+1 = True, 0 = False, -1 = Incomplete
+
+
+
+Size of Clauses I read are : 5
+
+
+Model : 
+a : 1
+c : 1
+b : 1
+GroundWet : 0
+raining : 0
+
+Iterations taken : 5
+
+********************
+Above Model is TRUE!
+********************
+
+
+

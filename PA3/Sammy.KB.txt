@@ -1,0 +1,51 @@
+a. Every box contains one (and only) of the 3 colors
+1. C1Y -> ~C2Y and ~C3Y
+2. C1W -> ~C2W and ~C3W
+3. C1B -> ~C2B and ~C3B
+
+4. C2Y -> ~C1Y and ~C3Y
+5. C2W -> ~C1W and ~C3W
+6. C2B -> ~C1B and ~C3B
+
+7. C3Y -> ~C1Y and ~C2Y
+8. C3W -> ~C1W and ~C2W
+9. C3B -> ~C1B and ~C2B
+
+
+b. Each box is a different colors
+10. C1Y or C1W or C1B
+11. C2Y or C2W or C2B
+12. C3Y or C3W or C3B
+
+
+c. For each box and each color...if the box is labelled with that color, then it does not actually contain that color.
+13. L1W -> ~C1W
+14. L1Y -> ~C1Y
+15. L1B -> ~C1B
+
+16. L2W -> ~C2W
+17. L2Y -> ~C2Y
+18. L2B -> ~C2B
+
+19. L3W -> ~C3W
+20. L3Y -> ~C3Y
+21. L3B -> ~C3B
+
+d. For each box and each color...if you observe a ball of that color drawn from that box, then it actually contains either that color alone, or both.
+22. O1Y -> C1Y or C1B
+23. O1W -> C1W or C1B
+
+24. O2Y -> C2Y or C2B
+25. O2W -> C2W or C2B
+
+26. O3Y -> C3Y or C3B
+27. O3W -> C3W or C3B
+
+
+e. Initial 6 that were given to us
+22. O1Y -> C1Y or C1B
+13. L1W -> ~C1W
+25. O2W -> C2W or C2B
+17. L2Y -> ~C2Y
+26. O3Y -> C3Y or C3B
+21. L3B -> ~C3B
